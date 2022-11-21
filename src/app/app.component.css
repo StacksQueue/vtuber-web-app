@@ -1,0 +1,76 @@
+.sec-container {
+    max-width: 1000px;
+    width: 90%;
+    padding: 0 5%;
+    margin: auto;
+
+    text-align: center;
+}
+
+.vr-container {
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid black; */
+}
+
+.camera-container {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: calc(20vh - 58px)
+}
+
+.vid-wrapper {
+    /* width: 50%; */
+    height: 30vh;
+    border: 1px solid black;
+}
+
+.holistic-wrapper {
+    position: absolute;
+    /* width: 100%; */
+    height: 30vh;
+    /* border: 1px solid black; */
+}
+
+.description {
+    padding: 20px 10px;
+    font-style: italic;
+    text-align: start;
+    position: absolute;
+    font-size: 12px;
+}
+
+.description pre {
+    margin: 0;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    transform: scale(-1, 1);
+}
+
+#guidecanvas {
+    /* position: absolute; */
+    transform: scale(-1, 1);
+    height: 100%;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    color: grey;
+}
+
+#vrm {
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 420px) {
+    /* .vid-wrapper,
+    .holistic-wrapper {
+        position: absolute;
+    } */
+}
